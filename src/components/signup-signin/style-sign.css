@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-container {
+    display: flex;
+    flex-direction: row;
+    height: 155vh;
+    background-image: url('avenger.png');
+    background-size: cover;
+    background-position: -25vw;
+}
+
+.sign-box1 {
+    width: 60%;
+    background-color: rgba(43,21,107,0.8);
+    padding: 50vh 0 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+}
+
+.sign-p {
+    color: #FFFFFFCC;
+}
+
+.sign-box2 {
+    width: 40%;
+    background-color: #fff;
+    padding: 10vh 10vh 0 10vh;
+    box-sizing: border-box;
+}
+
+.sign-box2 p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #AAAAAA;
+}
+
+#box2-line1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+}
+
+#box2-line2 {
+    font-size: 18px;
+}
+
+#box2-form label {
+    display: block;
+    margin-bottom: 2vh;
+    font-family: "Mulish", sans-serif;
+    color: #4E4B66;
+}
+
+#form-firstname, #form-lastname, #form-phone,
+#form-email, #form-pass {
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: #FCFDFE;
+    border: 1px solid #DEDEDE;
+    border-radius: 15px;
+    padding: 2vh 1.5vw 2vh 1.5vw;
+    font-family: "Mulish", sans-serif;
+    letter-spacing: 0.1em;
+    ::placeholder {
+        color: #DEDEDE;
+    }
+}
+
+.sign-button {
+    width: 100%; 
+    margin: 4vh 0 2vh 0;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: #5F2EEA;
+    border: 1px solid #5F2EEA;
+    border-radius: 15px;
+    font-family: "Mulish", sans-serif;
+    color: #fff;
+}
+
+#box2-line3 {
+    text-align: center;
+}
+
+#box2-line4 {
+    text-align: center;
+}

@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-#root-signup {
-    display: flex;
-    flex-direction: row;
+#root-sign {
     height: 155vh;
     background-image: url('avenger.png');
     background-size: cover;
