@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root-signup {
+    display: flex;
+    flex-direction: row;
+    height: 155vh;
+    background-image: url('avenger.png');
+    background-size: cover;
+    background-position: -25vw;
+}
