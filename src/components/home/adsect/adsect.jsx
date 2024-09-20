@@ -1,4 +1,7 @@
 import './style-adsect.css'
+import adsect1 from './spiderman.png'
+import adsect2 from './lion.png'
+import adsect3 from './starwars.png'
 
 function Adsect() {
     return (
@@ -9,13 +12,13 @@ function Adsect() {
             </div>
             <div className="adsect2">
                 <div className="adsect2-container adsect2-lower">
-                    <img src="spiderman.png" />
+                    <img src={adsect1} />
                 </div>
                 <div className="adsect2-container adsect2-low">
-                    <img src="lion.png" />
+                    <img src={adsect2} />
                 </div>
                 <div className="adsect2-container">
-                    <img src="starwars.png" />
+                    <img src={adsect3} />
                 </div>
             </div>
         </div>

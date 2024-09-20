@@ -1,4 +1,7 @@
 import './style-up.css'
+import up1 from './poster4.png'
+import up2 from './poster5.png'
+import up3 from './poster6.png'
 
 function Up() {
     return (
@@ -23,7 +26,7 @@ function Up() {
             </div>
             <div className="up-class3">
                 <div className="class3-container">
-                    <img src="poster4.png" />
+                    <img src={up1} />
                     <p className="class3-p4"> Black Widow </p>
                     <p className="class3-p5"> Action, Adventure, Sci-Fi </p>
                     <div className="class3-button">
@@ -31,7 +34,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster5.png" />
+                    <img src={up2} />
                     <p className="class3-p4"> The Witches </p>
                     <p className="class3-p5"> Adventure, Comedy, Family </p>
                     <div className="class3-button">
@@ -39,7 +42,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster6.png" />
+                    <img src={up3} />
                     <p className="class3-p4"> Tenet </p>
                     <p className="class3-p5"> Action, Sci-Fi </p>
                     <div className="class3-button">
@@ -47,7 +50,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster4.png" />
+                    <img src={up1} />
                     <p className="class3-p4"> Black Widow </p>
                     <p className="class3-p5"> Action, Adventure, Sci-Fi </p>
                     <div className="class3-button">
@@ -55,7 +58,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster5.png" />
+                    <img src={up2} />
                     <p className="class3-p4"> The Witches </p>
                     <p className="class3-p5"> Adventure, Comedy, Family </p>
                     <div className="class3-button">
@@ -63,7 +66,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster6.png" />
+                    <img src={up3} />
                     <p className="class3-p4"> Tenet </p>
                     <p className="class3-p5"> Action, Sci-Fi </p>
                     <div className="class3-button">
@@ -71,7 +74,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster4.png" />
+                    <img src={up1} />
                     <p className="class3-p4"> Black Widow </p>
                     <p className="class3-p5"> Action, Adventure, Sci-Fi </p>
                     <div className="class3-button">
@@ -79,7 +82,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster5.png" />
+                    <img src={up2} />
                     <p className="class3-p4"> The Witches </p>
                     <p className="class3-p5"> Adventure, Comedy, Family </p>
                     <div className="class3-button">
@@ -87,7 +90,7 @@ function Up() {
                     </div>
                 </div>
                 <div className="class3-container">
-                    <img src="poster6.png" />
+                    <img src={up3} />
                     <p className="class3-p4"> Tenet </p>
                     <p className="class3-p5"> Action, Sci-Fi </p>
                     <div className="class3-button">

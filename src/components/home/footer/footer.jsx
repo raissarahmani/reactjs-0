@@ -1,11 +1,19 @@
 import './style-footer.css'
+import footer1 from './Tickitz 2.svg'
+import footer2 from './ebv.id 2.svg'
+import footer3 from './Vector.svg'
+import footer4 from './hiflix.png'
+import logo1 from './Facebook.svg'
+import logo2 from './bx_bxl-instagram.svg'
+import logo3 from './x.svg'
+import logo4 from './Group.svg'
 
 function Footer() {
     return (
         <footer className="home-footer">
             <div className="footer1">
                 <div className="footer1-class1">
-                    <img src="Tickitz 2.svg" />
+                    <img src={footer1} />
                     <p className="class1-p8"> Stop waiting in line. Buy tickets <br></br> conveniently, watch movies quietly. </p>
                 </div>
                 <div className="footer1-class2">
@@ -18,9 +26,9 @@ function Footer() {
                 <div className="footer1-class3">
                     <p className="class2-p6"> Our Sponsor </p>
                     <div className="footer1-sponsor">
-                        <img src="ebv.id 2.svg" /> <br></br>
-                        <img src="Vector.svg" /> <br></br>
-                        <img src="hiflix.png" /> <br></br>
+                        <img src={footer2} /> <br></br>
+                        <img src={footer3} /> <br></br>
+                        <img src={footer4} /> <br></br>
                     </div>
                 </div>
                 <div className="footer1-class4">
@@ -29,16 +37,16 @@ function Footer() {
                     </div>
                     <div className="footer1-f2">
                         <div id="logo"> 
-                            <img src="Facebook.svg" /> <br></br>
-                            <img src="bx_bxl-instagram.svg" /> <br></br>
-                            <img src="x.svg" /> <br></br>
-                            <img src="Group.svg" /> <br></br>
+                            <img src={logo1} /> <br></br>
+                            <img src={logo2} /> <br></br>
+                            <img src={logo3} /> <br></br>
+                            <img src={logo4} /> <br></br>
                         </div>
                         <div id="ket"> 
-                            <p className="class2-p7"> Tickitz Cinema id</p>
-                            <p className="class2-p7"> tickitz.id </p>
-                            <p className="class2-p7"> tickitz.id </p>
-                            <p className="class2-p7"> Tickitz Cinema id </p>
+                            <p> Tickitz Cinema id</p>
+                            <p> tickitz.id </p> 
+                            <p> tickitz.id </p>
+                            <p> Tickitz Cinema id </p>
                         </div>
                     </div>          
                 </div>

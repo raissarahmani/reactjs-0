@@ -33,6 +33,10 @@
     box-sizing: border-box;
 }
 
+.sign-box2 img {
+    display: none;
+}
+
 .sign-box2 p {
     font-family: "Inter", sans-serif;
     font-size: 16px;

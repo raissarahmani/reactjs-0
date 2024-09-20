@@ -1,34 +1,83 @@
-* {
-    margin: 0;
-    padding: 0;
+@media screen and (min-width: 769px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-header {
+        display: flex;
+        padding: 5vh 20vh 0 20vh;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+        font-family: "Mulish", sans-serif;
+        font-weight:600;
+        font-size: 16px;
+        color: #414141;
+    }
+
+    .home-shorts {
+        display: none;
+    }
+
+    .header-button {
+        width: 10vw;
+        padding: 1vh;
+        box-sizing: border-box;
+        background-color: #5F2EEA;
+        border: 1px solid #5F2EEA;
+        border-radius: 5px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        color: #fff;
+    }
 }
 
-.home-header {
-    display: flex;
-    padding: 5vh 20vh 0 20vh;
-    box-sizing: border-box;
-    justify-content: space-between;
-}
+@media screen and (min-width: 769px) {
 
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30vw;
-    font-family: "Mulish", sans-serif;
-    font-weight:600;
-    font-size: 16px;
-    color: #414141;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-.header-button {
-    width: 10vw;
-    padding: 1vh;
-    box-sizing: border-box;
-    background-color: #5F2EEA;
-    border: 1px solid #5F2EEA;
-    border-radius: 5px;
-    font-family: "Mulish", sans-serif;
-    font-weight: 700;
-    color: #fff;
+    .home-header {
+        display: flex;
+        padding: 5vh 20vh 0 20vh;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+        font-family: "Mulish", sans-serif;
+        font-weight:600;
+        font-size: 16px;
+        color: #414141;
+    }
+
+    .home-shorts {
+        display: none;
+    }
+
+    .header-button {
+        width: 10vw;
+        padding: 1vh;
+        box-sizing: border-box;
+        background-color: #5F2EEA;
+        border: 1px solid #5F2EEA;
+        border-radius: 5px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        color: #fff;
+    }
 }

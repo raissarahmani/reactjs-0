@@ -1,10 +1,11 @@
 import './style-sign.css'
+import sign1 from './tickitz.png'
 
 function SignIn() {
     return (
         <div className="sign-container">
             <div className="sign-box1">
-                <img src="tickitz.png" />
+                <img src={sign1} />
                 <p className="sign-p"> wait, watch, wow!</p>
             </div>
             <div className="sign-box2">

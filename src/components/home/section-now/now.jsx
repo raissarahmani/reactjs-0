@@ -1,4 +1,7 @@
 import './style-now.css'
+import now1 from './poster1.png'
+import now2 from './poster2.png'
+import now3 from './poster3.png'
 
 function Now() {
     return (
@@ -9,31 +12,31 @@ function Now() {
             </div>
             <div className="now-class2">
                 <div className="class2-container">
-                    <img src="poster1.png" />
+                    <img src={now1} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster2.png" />
+                    <img src={now2} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster3.png" />
+                    <img src={now3} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster1.png" />
+                    <img src={now1} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster2.png" />
+                    <img src={now2} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster3.png" />
+                    <img src={now3} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster1.png" />
+                    <img src={now1} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster2.png" />
+                    <img src={now2} />
                 </div>
                 <div className="class2-container">
-                    <img src="poster3.png" />
+                    <img src={now3} />
                 </div>
             </div>
         </div>
