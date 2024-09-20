@@ -1,5 +1,6 @@
 import './style-sign.css'
 import sign1 from './tickitz.png'
+import sign2 from './Tickitz 1.svg'
 
 function SignUp() {
     return (
@@ -9,7 +10,7 @@ function SignUp() {
                 <p className="sign-p"> wait, watch, wow!</p>
             </div>
             <div className="sign-box2">
-                <img src="Tickitz 1.svg" />
+                <img src={sign2} />
                 <p id="box2-line1"> Sign Up </p> <br></br>
                 <p id="box2-line2"> Fill your additional details </p> <br></br> <br></br>
                 <p id="box2-form">

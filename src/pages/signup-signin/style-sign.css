@@ -3,9 +3,17 @@
     padding: 0;
 }
 
-#root-sign {
-    height: 155vh;
-    background-image: url('avenger.png');
-    background-size: cover;
-    background-position: -25vw;
+@media screen and (min-width: 769px) {
+    #root-sign {
+        height: 155vh;
+        background-image: url('avenger.png');
+        background-size: cover;
+        background-position: -25vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #root-sign {
+        height: 155vh;
+    }
 }
