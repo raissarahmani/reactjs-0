@@ -14,7 +14,7 @@ function Footer() {
             <div className="footer1">
                 <div className="footer1-class1">
                     <img src={footer1} />
-                    <p className="class1-p8"> Stop waiting in line. Buy tickets <br></br> conveniently, watch movies quietly. </p>
+                    <p className="class1-p8"> Stop waiting in line.<br></br> Buy ticket conveniently, watch movies quietly. </p>
                 </div>
                 <div className="footer1-class2">
                     <p className="class2-p6"> Explore </p>

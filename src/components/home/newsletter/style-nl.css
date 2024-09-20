@@ -3,69 +3,144 @@
     padding: 0;
 }
 
-.home-newsletter {
-    height: 100vh;
-    padding: 15vh 20vh 0 20vh;
-    box-sizing: border-box;
-}
+@media screen and (min-width: 769px) {
 
-.home-nl {
-    height: 68vh;
-    padding: 10vh 0 0 0;
-    box-sizing: border-box;
-    box-shadow: 0 2vh 3vh rgba(0,0,0,0.1);
-    border-radius: 8px;
-    text-align: center;
-}
+    .home-newsletter {
+        height: 100vh;
+        padding: 15vh 20vh 0 20vh;
+        box-sizing: border-box;
+    }
 
-#nl-line3 {
-    margin-bottom: 0.5vh;
-    font-size: 24px;
-    font-weight: 400;
-    color:#4E4B66;
-}
+    .home-nl {
+        height: 68vh;
+        padding: 10vh 0 0 0;
+        box-sizing: border-box;
+        box-shadow: 0 2vh 3vh rgba(0,0,0,0.1);
+        border-radius: 8px;
+        text-align: center;
+    }
 
-#nl-line4 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #5F2EEA;
-}
+    #nl-line3 {
+        margin-bottom: 0.5vh;
+        font-size: 24px;
+        font-weight: 400;
+        color:#4E4B66;
+    }
 
-#newsletter {
-    width: 30%;
-    height: 10vh;
-    box-sizing: border-box;
-    background-color: #FCFDFE;
-    border: 2px solid #DEDEDE;
-    border-radius: 4px;
-    padding: 2vh 1.5vw 2vh 1.5vw;
-    font-family: "Mulish", sans-serif;
-    letter-spacing: 0.1em;
-    ::placeholder {
-        color: #DEDEDE;
+    #nl-line4 {
+        font-size: 48px;
+        font-weight: 700;
+        color: #5F2EEA;
+    }
+
+    #newsletter {
+        width: 30%;
+        height: 10vh;
+        box-sizing: border-box;
+        background-color: #FCFDFE;
+        border: 2px solid #DEDEDE;
+        border-radius: 4px;
+        padding: 2vh 1.5vw 2vh 1.5vw;
+        font-family: "Mulish", sans-serif;
+        letter-spacing: 0.1em;
+        ::placeholder {
+            color: #DEDEDE;
+        }
+    }
+
+    .nl-button {
+        width: 10vw;
+        height: 10vh;
+        margin-left: 2vh;
+        padding: 2vh;
+        box-sizing: border-box;
+        background-color: #5F2EEA;
+        border: 1px solid #5F2EEA;
+        border-radius: 4px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    #nl-line5 {
+        padding: 4vh;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        line-height: 4vh;
+        color:#6E7191
     }
 }
 
-.nl-button {
-    width: 10vw;
-    height: 10vh;
-    margin-left: 2vh;
-    padding: 2vh;
-    box-sizing: border-box;
-    background-color: #5F2EEA;
-    border: 1px solid #5F2EEA;
-    border-radius: 4px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    color: #fff;
-}
+@media screen and (max-width: 768px) {
 
-#nl-line5 {
-    padding: 4vh;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    line-height: 4vh;
-    color:#6E7191
+    .home-newsletter {
+        height: 100vh;
+        padding: 15vh 5vh 0 5vh;
+        box-sizing: border-box;
+    }
+
+    .home-nl {
+        padding: 10vh;
+        box-sizing: border-box;
+        box-shadow: 0 2vh 3vh rgba(0,0,0,0.1);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #nl-line3 {
+        margin-bottom: 0.1vh;
+        font-size: 14px;
+        font-weight: 400;
+        color:#4E4B66;
+    }
+
+    #nl-line4 {
+        margin-bottom: 1vh;
+        font-size: 20px;
+        font-weight: 700;
+        color: #5F2EEA;
+    }
+
+    #newsletter {
+        width: 100%;
+        height: 7vh;
+        margin-bottom: 1vh;
+        padding: 2vh 1.5vw 2vh 1.5vw;
+        box-sizing: border-box;
+        background-color: #FCFDFE;
+        border: 2px solid #DEDEDE;
+        border-radius: 4px;
+        font-family: "Mulish", sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        ::placeholder {
+            color: #DEDEDE;
+        }
+    }
+
+    .nl-button {
+        width: 100%;
+        height: 7vh;
+        padding: 2vh;
+        box-sizing: border-box;
+        background-color: #5F2EEA;
+        border: 1px solid #5F2EEA;
+        border-radius: 4px; 
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    #nl-line5 {
+        padding-top: 5vh;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+        color:#6E7191
+    }
 }
